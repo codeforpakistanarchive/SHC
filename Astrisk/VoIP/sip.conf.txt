@@ -1,0 +1,23 @@
+[100]
+deny=0.0.0.0/0.0.0.0
+secret=100test
+dtmfmode=rfc2833
+canreinvite=no
+context=ivr
+host=dynamic
+trustrpid=yes
+sendrpid=no
+type=friend
+nat=yes
+port=5060
+qualify=yes
+qualifyfreq=60
+callgroup=
+pickupgroup=
+dial=SIP/100
+mailbox=100@device
+permit=0.0.0.0/0.0.0.0
+callerid=device <100>
+callcounter=yes
+faxdetect=no
+

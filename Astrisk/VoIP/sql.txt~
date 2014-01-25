@@ -1,0 +1,8 @@
+CREATE TABLE logs
+(
+ID int NOT NULL AUTO_INCREMENT,
+callerid varchar(255) NOT NULL,
+treeid varchar(255),
+filename varchar(255),
+PRIMARY KEY (ID)
+)
