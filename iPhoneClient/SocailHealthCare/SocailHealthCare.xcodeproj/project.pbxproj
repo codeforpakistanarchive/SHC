@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471193B11894FC22003165DA /* TimeLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471193AF1894FC22003165DA /* TimeLineController.m */; };
+		471193B21894FC22003165DA /* TimeLineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471193B01894FC22003165DA /* TimeLineController.xib */; };
+		471193B51894FC43003165DA /* TimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 471193B41894FC43003165DA /* TimeLineCell.m */; };
+		471193B71894FC60003165DA /* TimeLineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471193B61894FC60003165DA /* TimeLineCell.xib */; };
+		471193BB1895005C003165DA /* ODRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 471193BA1895005C003165DA /* ODRefreshControl.m */; };
+		471193BD189500D0003165DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471193BC189500D0003165DA /* QuartzCore.framework */; };
+		471193C118950557003165DA /* avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471193BF18950557003165DA /* avatar@2x.png */; };
+		471193C218950557003165DA /* displaytest@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471193C018950557003165DA /* displaytest@2x.png */; };
+		471193CB18950BF5003165DA /* CommentsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 471193C918950BF5003165DA /* CommentsController.m */; };
+		471193CC18950BF5003165DA /* CommentsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471193CA18950BF5003165DA /* CommentsController.xib */; };
+		471193D4189511CA003165DA /* UIExpandingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 471193CF189511CA003165DA /* UIExpandingTextView.m */; };
+		471193D5189511CA003165DA /* UIExpandingTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 471193D1189511CA003165DA /* UIExpandingTextViewInternal.m */; };
+		471193D6189511CA003165DA /* UIInputToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 471193D3189511CA003165DA /* UIInputToolbar.m */; };
+		471193E218951335003165DA /* buttonbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 471193D818951335003165DA /* buttonbg.png */; };
+		471193E318951335003165DA /* buttonbg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471193D918951335003165DA /* buttonbg1@2x.png */; };
+		471193E418951335003165DA /* buttonbg2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471193DA18951335003165DA /* buttonbg2@2x.png */; };
+		471193E518951335003165DA /* buttonbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471193DB18951335003165DA /* buttonbg@2x.png */; };
+		471193E618951335003165DA /* textbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 471193DC18951335003165DA /* textbg.png */; };
+		471193E718951335003165DA /* textbg3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471193DD18951335003165DA /* textbg3@2x.png */; };
+		471193E818951335003165DA /* textbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471193DE18951335003165DA /* textbg@2x.png */; };
+		471193E918951335003165DA /* toolbarbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 471193DF18951335003165DA /* toolbarbg.png */; };
+		471193EA18951335003165DA /* toolbarbg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471193E018951335003165DA /* toolbarbg1@2x.png */; };
+		471193EB18951335003165DA /* toolbarbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 471193E118951335003165DA /* toolbarbg@2x.png */; };
 		4741B0B81893C2E600E2B75F /* VPLoginViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4741B0B61893C2E600E2B75F /* VPLoginViewController.mm */; };
 		4741B0B91893C2E600E2B75F /* VPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4741B0B71893C2E600E2B75F /* VPLoginViewController.xib */; };
 		4741B0C91893C3BC00E2B75F /* agree_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4741B0BD1893C3BC00E2B75F /* agree_btn.png */; };
@@ -42,7 +65,6 @@
 		4741B1121893D29700E2B75F /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4741B1091893D29700E2B75F /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		4741B1141893D8B400E2B75F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4741B1131893D8B400E2B75F /* MobileCoreServices.framework */; };
 		4741B1161893D8BD00E2B75F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4741B1151893D8BD00E2B75F /* Security.framework */; };
-		4741B11B1893E40200E2B75F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4741B11A1893E40200E2B75F /* JSONKit.m */; };
 		4741B1201893E8EF00E2B75F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4741B11F1893E8EF00E2B75F /* MBProgressHUD.m */; };
 		4741B1251893F0BA00E2B75F /* VPLoggedInViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4741B1231893F0BA00E2B75F /* VPLoggedInViewController.mm */; };
 		4741B1261893F0BA00E2B75F /* VPLoggedInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4741B1241893F0BA00E2B75F /* VPLoggedInViewController.xib */; };
@@ -57,8 +79,6 @@
 		4741B1401893F25F00E2B75F /* VPMoreViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4741B13A1893F25F00E2B75F /* VPMoreViewController.mm */; };
 		4741B1411893F25F00E2B75F /* VPMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4741B13B1893F25F00E2B75F /* VPMoreViewController.xib */; };
 		4741B1431893F47D00E2B75F /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4741B1421893F47D00E2B75F /* Icon-60@2x.png */; };
-		4741B14C189400C500E2B75F /* TimeLineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4741B14A189400C500E2B75F /* TimeLineController.m */; };
-		4741B14D189400C500E2B75F /* TimeLineController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4741B14B189400C500E2B75F /* TimeLineController.xib */; };
 		4741B150189402AD00E2B75F /* TabMoreActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4741B14E189402AD00E2B75F /* TabMoreActive@2x.png */; };
 		4741B151189402AD00E2B75F /* TabMsgActive@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4741B14F189402AD00E2B75F /* TabMsgActive@2x.png */; };
 		475CEBE71893C12E00E0EE30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 475CEBE61893C12E00E0EE30 /* UIKit.framework */; };
@@ -73,6 +93,36 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		471193AE1894FC22003165DA /* TimeLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineController.h; sourceTree = "<group>"; };
+		471193AF1894FC22003165DA /* TimeLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineController.m; sourceTree = "<group>"; };
+		471193B01894FC22003165DA /* TimeLineController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeLineController.xib; sourceTree = "<group>"; };
+		471193B31894FC43003165DA /* TimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineCell.h; sourceTree = "<group>"; };
+		471193B41894FC43003165DA /* TimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineCell.m; sourceTree = "<group>"; };
+		471193B61894FC60003165DA /* TimeLineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeLineCell.xib; sourceTree = "<group>"; };
+		471193B91895005C003165DA /* ODRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODRefreshControl.h; sourceTree = "<group>"; };
+		471193BA1895005C003165DA /* ODRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODRefreshControl.m; sourceTree = "<group>"; };
+		471193BC189500D0003165DA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		471193BF18950557003165DA /* avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "avatar@2x.png"; path = "images/avatar@2x.png"; sourceTree = "<group>"; };
+		471193C018950557003165DA /* displaytest@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "displaytest@2x.png"; path = "images/displaytest@2x.png"; sourceTree = "<group>"; };
+		471193C818950BF5003165DA /* CommentsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsController.h; sourceTree = "<group>"; };
+		471193C918950BF5003165DA /* CommentsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsController.m; sourceTree = "<group>"; };
+		471193CA18950BF5003165DA /* CommentsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentsController.xib; sourceTree = "<group>"; };
+		471193CE189511CA003165DA /* UIExpandingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIExpandingTextView.h; sourceTree = "<group>"; };
+		471193CF189511CA003165DA /* UIExpandingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIExpandingTextView.m; sourceTree = "<group>"; };
+		471193D0189511CA003165DA /* UIExpandingTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIExpandingTextViewInternal.h; sourceTree = "<group>"; };
+		471193D1189511CA003165DA /* UIExpandingTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIExpandingTextViewInternal.m; sourceTree = "<group>"; };
+		471193D2189511CA003165DA /* UIInputToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIInputToolbar.h; sourceTree = "<group>"; };
+		471193D3189511CA003165DA /* UIInputToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIInputToolbar.m; sourceTree = "<group>"; };
+		471193D818951335003165DA /* buttonbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonbg.png; sourceTree = "<group>"; };
+		471193D918951335003165DA /* buttonbg1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonbg1@2x.png"; sourceTree = "<group>"; };
+		471193DA18951335003165DA /* buttonbg2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonbg2@2x.png"; sourceTree = "<group>"; };
+		471193DB18951335003165DA /* buttonbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonbg@2x.png"; sourceTree = "<group>"; };
+		471193DC18951335003165DA /* textbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbg.png; sourceTree = "<group>"; };
+		471193DD18951335003165DA /* textbg3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textbg3@2x.png"; sourceTree = "<group>"; };
+		471193DE18951335003165DA /* textbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "textbg@2x.png"; sourceTree = "<group>"; };
+		471193DF18951335003165DA /* toolbarbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolbarbg.png; sourceTree = "<group>"; };
+		471193E018951335003165DA /* toolbarbg1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarbg1@2x.png"; sourceTree = "<group>"; };
+		471193E118951335003165DA /* toolbarbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbarbg@2x.png"; sourceTree = "<group>"; };
 		4741B0B51893C2E600E2B75F /* VPLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPLoginViewController.h; sourceTree = "<group>"; };
 		4741B0B61893C2E600E2B75F /* VPLoginViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VPLoginViewController.mm; sourceTree = "<group>"; };
 		4741B0B71893C2E600E2B75F /* VPLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VPLoginViewController.xib; sourceTree = "<group>"; };
@@ -123,7 +173,6 @@
 		4741B1131893D8B400E2B75F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		4741B1151893D8BD00E2B75F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		4741B1191893E40200E2B75F /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = JSONKit/JSONKit.h; sourceTree = "<group>"; };
-		4741B11A1893E40200E2B75F /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = JSONKit/JSONKit.m; sourceTree = "<group>"; };
 		4741B11E1893E8EF00E2B75F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		4741B11F1893E8EF00E2B75F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		4741B1221893F0BA00E2B75F /* VPLoggedInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPLoggedInViewController.h; sourceTree = "<group>"; };
@@ -143,9 +192,6 @@
 		4741B13A1893F25F00E2B75F /* VPMoreViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VPMoreViewController.mm; sourceTree = "<group>"; };
 		4741B13B1893F25F00E2B75F /* VPMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VPMoreViewController.xib; sourceTree = "<group>"; };
 		4741B1421893F47D00E2B75F /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "SocailHealthCare/Icon-60@2x.png"; sourceTree = SOURCE_ROOT; };
-		4741B149189400C500E2B75F /* TimeLineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeLineController.h; path = TimeLineController/TimeLineController.h; sourceTree = "<group>"; };
-		4741B14A189400C500E2B75F /* TimeLineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeLineController.m; path = TimeLineController/TimeLineController.m; sourceTree = "<group>"; };
-		4741B14B189400C500E2B75F /* TimeLineController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TimeLineController.xib; path = TimeLineController/TimeLineController.xib; sourceTree = "<group>"; };
 		4741B14E189402AD00E2B75F /* TabMoreActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabMoreActive@2x.png"; sourceTree = "<group>"; };
 		4741B14F189402AD00E2B75F /* TabMsgActive@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabMsgActive@2x.png"; sourceTree = "<group>"; };
 		475CEBE21893C12E00E0EE30 /* Soclal Healh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soclal Healh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +214,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471193BD189500D0003165DA /* QuartzCore.framework in Frameworks */,
 				4741B1161893D8BD00E2B75F /* Security.framework in Frameworks */,
 				4741B1141893D8B400E2B75F /* MobileCoreServices.framework in Frameworks */,
 				475CEBE71893C12E00E0EE30 /* UIKit.framework in Frameworks */,
@@ -179,6 +226,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		471193AD1894FC22003165DA /* TimeLineController */ = {
+			isa = PBXGroup;
+			children = (
+				471193AE1894FC22003165DA /* TimeLineController.h */,
+				471193AF1894FC22003165DA /* TimeLineController.m */,
+				471193B01894FC22003165DA /* TimeLineController.xib */,
+				471193B31894FC43003165DA /* TimeLineCell.h */,
+				471193B41894FC43003165DA /* TimeLineCell.m */,
+				471193B61894FC60003165DA /* TimeLineCell.xib */,
+				471193C818950BF5003165DA /* CommentsController.h */,
+				471193C918950BF5003165DA /* CommentsController.m */,
+				471193CA18950BF5003165DA /* CommentsController.xib */,
+			);
+			path = TimeLineController;
+			sourceTree = "<group>";
+		};
+		471193B81895005C003165DA /* ODRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				471193B91895005C003165DA /* ODRefreshControl.h */,
+				471193BA1895005C003165DA /* ODRefreshControl.m */,
+			);
+			path = ODRefreshControl;
+			sourceTree = "<group>";
+		};
+		471193CD189511CA003165DA /* UIInputToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				471193CE189511CA003165DA /* UIExpandingTextView.h */,
+				471193CF189511CA003165DA /* UIExpandingTextView.m */,
+				471193D0189511CA003165DA /* UIExpandingTextViewInternal.h */,
+				471193D1189511CA003165DA /* UIExpandingTextViewInternal.m */,
+				471193D2189511CA003165DA /* UIInputToolbar.h */,
+				471193D3189511CA003165DA /* UIInputToolbar.m */,
+			);
+			path = UIInputToolbar;
+			sourceTree = "<group>";
+		};
+		471193D718951335003165DA /* UIInputToolbarImages */ = {
+			isa = PBXGroup;
+			children = (
+				471193D818951335003165DA /* buttonbg.png */,
+				471193D918951335003165DA /* buttonbg1@2x.png */,
+				471193DA18951335003165DA /* buttonbg2@2x.png */,
+				471193DB18951335003165DA /* buttonbg@2x.png */,
+				471193DC18951335003165DA /* textbg.png */,
+				471193DD18951335003165DA /* textbg3@2x.png */,
+				471193DE18951335003165DA /* textbg@2x.png */,
+				471193DF18951335003165DA /* toolbarbg.png */,
+				471193E018951335003165DA /* toolbarbg1@2x.png */,
+				471193E118951335003165DA /* toolbarbg@2x.png */,
+			);
+			path = UIInputToolbarImages;
+			sourceTree = "<group>";
+		};
 		4741B0B41893C2E600E2B75F /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +294,8 @@
 		4741B0BA1893C3BC00E2B75F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				471193BF18950557003165DA /* avatar@2x.png */,
+				471193C018950557003165DA /* displaytest@2x.png */,
 				4741B1421893F47D00E2B75F /* Icon-60@2x.png */,
 				4741B0BB1893C3BC00E2B75F /* images */,
 			);
@@ -201,6 +305,7 @@
 		4741B0BB1893C3BC00E2B75F /* images */ = {
 			isa = PBXGroup;
 			children = (
+				471193D718951335003165DA /* UIInputToolbarImages */,
 				4741B14E189402AD00E2B75F /* TabMoreActive@2x.png */,
 				4741B14F189402AD00E2B75F /* TabMsgActive@2x.png */,
 				4741B1271893F23B00E2B75F /* MoreTab */,
@@ -378,6 +483,7 @@
 		475CEBE51893C12E00E0EE30 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				471193BC189500D0003165DA /* QuartzCore.framework */,
 				4741B1151893D8BD00E2B75F /* Security.framework */,
 				4741B1131893D8B400E2B75F /* MobileCoreServices.framework */,
 				475CEBE61893C12E00E0EE30 /* UIKit.framework */,
@@ -390,11 +496,13 @@
 		475CEBEC1893C12E00E0EE30 /* SocailHealthCare */ = {
 			isa = PBXGroup;
 			children = (
+				471193CD189511CA003165DA /* UIInputToolbar */,
+				471193B81895005C003165DA /* ODRefreshControl */,
+				471193AD1894FC22003165DA /* TimeLineController */,
 				4741B1301893F25E00E2B75F /* More */,
 				4741B1211893F0BA00E2B75F /* AfterLogin */,
 				4741B11D1893E8EF00E2B75F /* MBProgressHUD */,
 				4741B1191893E40200E2B75F /* JSONKit.h */,
-				4741B11A1893E40200E2B75F /* JSONKit.m */,
 				4741B0F61893D29700E2B75F /* AFNetworking */,
 				4741B0EC1893CE7000E2B75F /* MainMenu */,
 				4741B0E41893CAA100E2B75F /* CommonUI */,
@@ -403,9 +511,6 @@
 				475CEBF51893C12E00E0EE30 /* AppDelegate.h */,
 				475CEBF61893C12E00E0EE30 /* AppDelegate.m */,
 				475CEBED1893C12E00E0EE30 /* Supporting Files */,
-				4741B149189400C500E2B75F /* TimeLineController.h */,
-				4741B14A189400C500E2B75F /* TimeLineController.m */,
-				4741B14B189400C500E2B75F /* TimeLineController.xib */,
 			);
 			path = SocailHealthCare;
 			sourceTree = "<group>";
@@ -477,20 +582,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				4741B0E31893C9DC00E2B75F /* VPSignUpViewController.xib in Resources */,
+				471193CC18950BF5003165DA /* CommentsController.xib in Resources */,
 				4741B1411893F25F00E2B75F /* VPMoreViewController.xib in Resources */,
+				471193B21894FC22003165DA /* TimeLineController.xib in Resources */,
 				475CEBF11893C12E00E0EE30 /* InfoPlist.strings in Resources */,
 				4741B0CD1893C3BC00E2B75F /* RegCodeBox.png in Resources */,
 				4741B0DC1893C46400E2B75F /* header.png in Resources */,
 				4741B0EB1893CBBE00E2B75F /* BackBtn@2x.png in Resources */,
 				4741B0CB1893C3BC00E2B75F /* next_btn.png in Resources */,
 				4741B12F1893F23B00E2B75F /* invite_icon@2x.png in Resources */,
+				471193E418951335003165DA /* buttonbg2@2x.png in Resources */,
 				4741B0C91893C3BC00E2B75F /* agree_btn.png in Resources */,
 				4741B13D1893F25F00E2B75F /* VPAboutViewController.xib in Resources */,
 				4741B0CC1893C3BC00E2B75F /* next_btn@2x.png in Resources */,
 				4741B0EA1893CBBE00E2B75F /* BackBtn.png in Resources */,
+				471193E818951335003165DA /* textbg@2x.png in Resources */,
 				4741B0CE1893C3BC00E2B75F /* RegCodeBox@2x.png in Resources */,
 				4741B0F11893CE7000E2B75F /* VPLoginSignUpViewController.xib in Resources */,
+				471193E518951335003165DA /* buttonbg@2x.png in Resources */,
 				4741B12D1893F23B00E2B75F /* about_icon@2x.png in Resources */,
+				471193C218950557003165DA /* displaytest@2x.png in Resources */,
 				4741B0CA1893C3BC00E2B75F /* agree_btn@2x.png in Resources */,
 				4741B12E1893F23B00E2B75F /* invite_icon.png in Resources */,
 				4741B0CF1893C3BC00E2B75F /* register_btn.png in Resources */,
@@ -498,16 +609,24 @@
 				4741B13F1893F25F00E2B75F /* VPMoreCell.xib in Resources */,
 				475CEBF91893C12E00E0EE30 /* Default.png in Resources */,
 				4741B150189402AD00E2B75F /* TabMoreActive@2x.png in Resources */,
+				471193E918951335003165DA /* toolbarbg.png in Resources */,
+				471193B71894FC60003165DA /* TimeLineCell.xib in Resources */,
 				4741B1261893F0BA00E2B75F /* VPLoggedInViewController.xib in Resources */,
 				4741B12C1893F23B00E2B75F /* about_icon.png in Resources */,
+				471193E718951335003165DA /* textbg3@2x.png in Resources */,
+				471193EB18951335003165DA /* toolbarbg@2x.png in Resources */,
 				4741B0D31893C3BC00E2B75F /* TextField.png in Resources */,
 				4741B0D41893C3BC00E2B75F /* TextField@2x.png in Resources */,
 				4741B0B91893C2E600E2B75F /* VPLoginViewController.xib in Resources */,
+				471193E618951335003165DA /* textbg.png in Resources */,
 				4741B1431893F47D00E2B75F /* Icon-60@2x.png in Resources */,
 				4741B0DA1893C46400E2B75F /* Background.png in Resources */,
+				471193E318951335003165DA /* buttonbg1@2x.png in Resources */,
+				471193C118950557003165DA /* avatar@2x.png in Resources */,
 				475CEBFB1893C12E00E0EE30 /* Default@2x.png in Resources */,
+				471193E218951335003165DA /* buttonbg.png in Resources */,
 				4741B0F51893CEC200E2B75F /* p_btn@2x.png in Resources */,
-				4741B14D189400C500E2B75F /* TimeLineController.xib in Resources */,
+				471193EA18951335003165DA /* toolbarbg1@2x.png in Resources */,
 				4741B0DB1893C46400E2B75F /* Background@2x.png in Resources */,
 				475CEBFD1893C12E00E0EE30 /* Default-568h@2x.png in Resources */,
 				4741B151189402AD00E2B75F /* TabMsgActive@2x.png in Resources */,
@@ -523,6 +642,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4741B13E1893F25F00E2B75F /* VPMoreCell.m in Sources */,
+				471193CB18950BF5003165DA /* CommentsController.m in Sources */,
+				471193B11894FC22003165DA /* TimeLineController.m in Sources */,
 				4741B1101893D29700E2B75F /* AFURLConnectionOperation.m in Sources */,
 				4741B1121893D29700E2B75F /* UIImageView+AFNetworking.m in Sources */,
 				4741B0E71893CAA100E2B75F /* AlertView.m in Sources */,
@@ -530,19 +651,22 @@
 				4741B0E21893C9DC00E2B75F /* VPSignUpViewController.mm in Sources */,
 				4741B10F1893D29700E2B75F /* AFPropertyListRequestOperation.m in Sources */,
 				4741B0F01893CE7000E2B75F /* VPLoginSignUpViewController.mm in Sources */,
-				4741B11B1893E40200E2B75F /* JSONKit.m in Sources */,
 				4741B1201893E8EF00E2B75F /* MBProgressHUD.m in Sources */,
 				475CEBF31893C12E00E0EE30 /* main.m in Sources */,
 				4741B13C1893F25F00E2B75F /* VPAboutViewController.m in Sources */,
+				471193B51894FC43003165DA /* TimeLineCell.m in Sources */,
+				471193D4189511CA003165DA /* UIExpandingTextView.m in Sources */,
 				4741B1111893D29700E2B75F /* AFXMLRequestOperation.m in Sources */,
 				4741B10E1893D29700E2B75F /* AFNetworkActivityIndicatorManager.m in Sources */,
 				4741B10B1893D29700E2B75F /* AFHTTPRequestOperation.m in Sources */,
 				4741B0B81893C2E600E2B75F /* VPLoginViewController.mm in Sources */,
 				4741B10C1893D29700E2B75F /* AFImageRequestOperation.m in Sources */,
 				4741B10A1893D29700E2B75F /* AFHTTPClient.m in Sources */,
-				4741B14C189400C500E2B75F /* TimeLineController.m in Sources */,
+				471193D5189511CA003165DA /* UIExpandingTextViewInternal.m in Sources */,
 				4741B10D1893D29700E2B75F /* AFJSONRequestOperation.m in Sources */,
 				475CEBF71893C12E00E0EE30 /* AppDelegate.m in Sources */,
+				471193D6189511CA003165DA /* UIInputToolbar.m in Sources */,
+				471193BB1895005C003165DA /* ODRefreshControl.m in Sources */,
 				4741B1401893F25F00E2B75F /* VPMoreViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

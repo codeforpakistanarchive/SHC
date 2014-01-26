@@ -10,4 +10,8 @@
 
 @interface TimeLineController : UIViewController
 
+@property (retain , nonatomic) IBOutlet UITableView *timeLineTable;
+
+- (IBAction) showComments:(id)sender;
+
 @end

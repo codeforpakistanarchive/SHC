@@ -179,6 +179,7 @@
     {
         [self showProgressHud];
         [self loadTermsAndConditionForm];
+        //[[AppDelegate appDelegate] launchDashbaord];
     }
 }
 
